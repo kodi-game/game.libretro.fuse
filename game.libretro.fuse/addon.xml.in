@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.fuse"
 		name="Sinclair - ZX Spectrum (Fuse)"
-		version="1.6.0.23"
+		version="1.6.0.24"
 		provider-name="Team Fuse">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>spectrum</platforms>
-		<extensions>tzx|tap|z80|rzx|scl|trd|dsk</extensions>
+		<extensions>tzx|tap|z80|rzx|scl|trd|dsk|zip</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 		<requires_opengl>false</requires_opengl>

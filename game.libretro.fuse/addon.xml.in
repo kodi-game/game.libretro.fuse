@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.fuse"
 		name="Sinclair - ZX Spectrum (Fuse)"
-		version="1.6.0.28"
+		version="1.6.0.29"
 		provider-name="Team Fuse">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -19,6 +19,10 @@
 		<license>GPLv3</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.fuse</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 		<summary lang="en_GB">Sinclair - ZX Spectrum (Fuse) 1.6.0</summary>
 		<description lang="da_DK">Fuse (den gratis Unix Spectrum-emulator) var oprindeligt en ZX Spectrum-emulator til Unix. Det er siden blevet overført til Mac OS X, Windows, Wii, AmigaOS og MorphOS.</description>
 		<description lang="en_GB">Fuse (the Free Unix Spectrum Emulator) was originally a ZX Spectrum emulator for Unix. It has since been ported to Mac OS X, Windows, the Wii, AmigaOS and MorphOS.</description>

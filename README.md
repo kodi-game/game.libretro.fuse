@@ -13,11 +13,11 @@ GPLv3
 
 ### Icon
 
-Help make me an icon!
+![Icon](game.libretro.fuse/resources/icon.png)
 
 ### Fanart
 
-Help make me fanart!
+![Fanart](game.libretro.fuse/resources/fanart.jpg)
 
 ### Screenshots
 

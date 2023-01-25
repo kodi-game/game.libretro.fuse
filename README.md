@@ -13,11 +13,11 @@ GPLv3
 
 ### Icon
 
-![Icon](game.libretro.fuse/resources/icon.png)
+![Sinclair - ZX Spectrum (Fuse) icon](game.libretro.fuse/resources/icon.png)
 
 ### Fanart
 
-![Fanart](game.libretro.fuse/resources/fanart.jpg)
+![Sinclair - ZX Spectrum (Fuse) fanart](game.libretro.fuse/resources/fanart.jpg)
 
 ### Screenshots
 

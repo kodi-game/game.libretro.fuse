@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
-msgid "Sinclair - ZX Spectrum (Fuse) 1.6.0"
+msgid "Sinclair - ZX Spectrum (Fuse)"
 msgstr ""
 
 msgctxt "Addon Description"

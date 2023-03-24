@@ -23,7 +23,7 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
-		<summary lang="en_GB">Sinclair - ZX Spectrum (Fuse) 1.6.0</summary>
+		<summary lang="en_GB">Sinclair - ZX Spectrum (Fuse)</summary>
 		<description lang="da_DK">Fuse (den gratis Unix Spectrum-emulator) var oprindeligt en ZX Spectrum-emulator til Unix. Det er siden blevet overført til Mac OS X, Windows, Wii, AmigaOS og MorphOS.</description>
 		<description lang="de_DE">Fuse (der freie Unix-Spectrum-Emulator) war ursprünglich ein ZX-Spectrum-Emulator für Unix. Seitdem wurde er auf Mac OS X, Windows, die Wii, AmigaOS und MorphOS portiert.</description>
 		<description lang="en_GB">Fuse (the Free Unix Spectrum Emulator) was originally a ZX Spectrum emulator for Unix. It has since been ported to Mac OS X, Windows, the Wii, AmigaOS and MorphOS.</description>

@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "Fuse (the Free Unix Spectrum Emulator) was originally a ZX Spectrum emulator for Unix. It has since been ported to Mac OS X, Windows, the Wii, AmigaOS and MorphOS."
 msgstr "Fuse (der freie Unix-Spectrum-Emulator) war ursprünglich ein ZX-Spectrum-Emulator für Unix. Seitdem wurde er auf Mac OS X, Windows, die Wii, AmigaOS und MorphOS portiert."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Einstellungen"
-
 msgctxt "#30001"
 msgid "Model (needs content load)"
 msgstr "Modell (benötigt geladenen Inhalt)"
@@ -124,3 +120,23 @@ msgstr "Joypad-Zuordnung L3-Taste"
 msgctxt "#30024"
 msgid "Joypad R3 button mapping"
 msgstr "Joypad-Zuordnung R3-Taste"
+
+msgctxt "#30025"
+msgid "Emulation speed percentage (needs content load)"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Colour Palette"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Display joystick type and emulation speed at startup"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Use Auto Size for Savestates. For Netplay 'Off' is recommended"
+msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Einstellungen"

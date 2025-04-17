@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.fuse\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2025-04-11 09:05+0000\n"
+"PO-Revision-Date: 2025-04-17 04:27+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fuse/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Sinclair - ZX Spectrum (Fuse)"
@@ -31,19 +31,20 @@ msgstr "Modell (behöver innehållsläsning)"
 
 msgctxt "#30002"
 msgid "Size Video Border"
-msgstr ""
+msgstr "Storlek för videoram"
 
+#, fuzzy
 msgctxt "#30003"
 msgid "Tape Auto Load"
-msgstr ""
+msgstr "Automatisk laddning av band"
 
 msgctxt "#30004"
 msgid "Tape Fast Load"
-msgstr ""
+msgstr "Snabb inläsning av kassett"
 
 msgctxt "#30005"
 msgid "Tape Load Sound"
-msgstr ""
+msgstr "Ljud vid bandladdning"
 
 msgctxt "#30006"
 msgid "Speaker Type"
@@ -51,91 +52,97 @@ msgstr "Högtalartyp"
 
 msgctxt "#30007"
 msgid "AY Stereo Separation"
-msgstr ""
+msgstr "AY Stereoseparation"
 
 msgctxt "#30008"
 msgid "Transparent Keyboard Overlay"
-msgstr ""
+msgstr "Transparent tangentbordsöverlägg"
 
 msgctxt "#30009"
 msgid "Time to Release Key in ms"
-msgstr ""
+msgstr "Tid för att släppa tangent i ms"
 
 msgctxt "#30010"
 msgid "Joypad Left mapping"
-msgstr ""
+msgstr "Mappning joypad vänster"
 
 msgctxt "#30011"
 msgid "Joypad Right mapping"
-msgstr ""
+msgstr "Mappning joypad höger"
 
 msgctxt "#30012"
 msgid "Joypad Up mapping"
-msgstr ""
+msgstr "Mappning joypad upp"
 
 msgctxt "#30013"
 msgid "Joypad Down mapping"
-msgstr ""
+msgstr "Mappning joypad ner"
 
+#, fuzzy
 msgctxt "#30014"
 msgid "Joypad Start mapping"
-msgstr ""
+msgstr "Joypad Start mappning"
 
 msgctxt "#30015"
 msgid "Joypad A button mapping"
-msgstr ""
+msgstr "Mappning joypad A-knapp"
 
 msgctxt "#30016"
 msgid "Joypad B button mapping"
-msgstr ""
+msgstr "Mappning joypad B-knapp"
 
 msgctxt "#30017"
 msgid "Joypad X button mapping"
-msgstr ""
+msgstr "Mappning joypad X-knapp"
 
 msgctxt "#30018"
 msgid "Joypad Y button mapping"
-msgstr ""
+msgstr "Mappning joypad Y-knapp"
 
 msgctxt "#30019"
 msgid "Joypad L button mapping"
-msgstr ""
+msgstr "Mappning joypad L-knapp"
 
 msgctxt "#30020"
 msgid "Joypad R button mapping"
-msgstr ""
+msgstr "Mappning joypad R-knapp"
 
 msgctxt "#30021"
 msgid "Joypad L2 button mapping"
-msgstr ""
+msgstr "Mappning joypad L2-knapp"
 
 msgctxt "#30022"
 msgid "Joypad R2 button mapping"
-msgstr ""
+msgstr "Mappning joypad R2-knapp"
 
+#, fuzzy
 msgctxt "#30023"
 msgid "Joypad L3 button mapping"
-msgstr ""
+msgstr "Mappning av Joypad L3-knapp"
 
+#, fuzzy
 msgctxt "#30024"
 msgid "Joypad R3 button mapping"
-msgstr ""
+msgstr "Mappning av knapparna på Joypad R3"
 
+#, fuzzy
 msgctxt "#30025"
 msgid "Emulation speed percentage (needs content load)"
-msgstr ""
+msgstr "Emuleringshastighet i procent (behöver innehåll laddas)"
 
 msgctxt "#30026"
 msgid "Colour Palette"
-msgstr ""
+msgstr "Färgpalett"
 
+#, fuzzy
 msgctxt "#30027"
 msgid "Display joystick type and emulation speed at startup"
-msgstr ""
+msgstr "Visa joysticktyp och emuleringshastighet vid uppstart"
 
+#, fuzzy
 msgctxt "#30028"
 msgid "Use Auto Size for Savestates. For Netplay 'Off' is recommended"
-msgstr ""
+msgstr "Använd Auto Size för Savestates. För Netplay rekommenderas \"Off\""
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

@@ -129,13 +129,53 @@ msgctxt "#30026"
 msgid "Colour Palette"
 msgstr "调色板"
 
-msgctxt "#30027"
-msgid "Display joystick type and emulation speed at startup"
-msgstr "启动时显示手柄类型和模拟速度"
-
 msgctxt "#30028"
 msgid "Use Auto Size for Savestates. For Netplay 'Off' is recommended"
 msgstr "对存档状态使用自动大小。对于网络对战，建议设为 “关”"
+
+msgctxt "#30029"
+msgid "TurboSound (2x AY-8910)"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Issue 2 Keyboard"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Fuller Box"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Melodik"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Currah uSpeech"
+msgstr ""
+
+msgctxt "#30034"
+msgid "AY Volume"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Beeper Volume"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Display joystick type at startup"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Display emulation speed at startup"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Kempston Mouse Swap Buttons"
+msgstr ""
+
+#~ msgctxt "#30027"
+#~ msgid "Display joystick type and emulation speed at startup"
+#~ msgstr "启动时显示手柄类型和模拟速度"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

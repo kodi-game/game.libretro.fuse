@@ -10,10 +10,19 @@
 		<setting label="30005" type="select" id="fuse_load_sound" values="enabled|disabled" default="enabled"/>
 		<setting label="30006" type="select" id="fuse_speaker_type" values="tv speaker|beeper|unfiltered" default="tv speaker"/>
 		<setting label="30007" type="select" id="fuse_ay_stereo_separation" values="none|acb|abc" default="none"/>
+		<setting label="30029" type="select" id="fuse_turbosound" values="disabled|enabled" default="disabled"/>
+		<setting label="30030" type="select" id="fuse_issue2" values="disabled|enabled" default="disabled"/>
+		<setting label="30031" type="select" id="fuse_fuller_box" values="disabled|enabled" default="disabled"/>
+		<setting label="30032" type="select" id="fuse_melodik" values="disabled|enabled" default="disabled"/>
+		<setting label="30033" type="select" id="fuse_uspeech" values="disabled|enabled" default="disabled"/>
+		<setting label="30034" type="select" id="fuse_volume_ay" values="100|90|80|70|60|50|40|30|20|10|0" default="100"/>
+		<setting label="30035" type="select" id="fuse_volume_beeper" values="100|90|80|70|60|50|40|30|20|10|0" default="100"/>
 		<setting label="30008" type="select" id="fuse_key_ovrlay_transp" values="enabled|disabled" default="enabled"/>
 		<setting label="30009" type="select" id="fuse_key_hold_time" values="500|1000|100|300" default="500"/>
-		<setting label="30027" type="select" id="fuse_display_joystick_type" values="enabled|disabled" default="enabled"/>
+		<setting label="30036" type="select" id="fuse_display_joystick_type" values="disabled|enabled" default="disabled"/>
+		<setting label="30037" type="select" id="fuse_display_emulation_speed" values="disabled|enabled" default="disabled"/>
 		<setting label="30028" type="select" id="fuse_auto_size_savestate" values="enabled|disabled" default="enabled"/>
+		<setting label="30038" type="select" id="fuse_mouse_swap_buttons" values="disabled|enabled" default="disabled"/>
 		<setting label="30010" type="select" id="fuse_joypad_left" values="&lt;none&gt;|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|Enter|Caps|Symbol|Space" default="&lt;none&gt;"/>
 		<setting label="30011" type="select" id="fuse_joypad_right" values="&lt;none&gt;|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|Enter|Caps|Symbol|Space" default="&lt;none&gt;"/>
 		<setting label="30012" type="select" id="fuse_joypad_up" values="&lt;none&gt;|0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|Enter|Caps|Symbol|Space" default="&lt;none&gt;"/>

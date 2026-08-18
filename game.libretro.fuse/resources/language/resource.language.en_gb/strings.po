@@ -173,3 +173,7 @@ msgstr ""
 msgctxt "#30038"
 msgid "Kempston Mouse Swap Buttons"
 msgstr ""
+
+msgctxt "#30039"
+msgid "Auto-select Model for 128K content (needs content load)"
+msgstr ""

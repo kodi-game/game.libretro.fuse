@@ -173,6 +173,58 @@ msgctxt "#30038"
 msgid "Kempston Mouse Swap Buttons"
 msgstr ""
 
+msgctxt "#30039"
+msgid "Auto-select Model for 128K content (needs content load)"
+msgstr ""
+
+msgctxt "#30040"
+msgid "System"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Load 128K-only releases on a Spectrum 128K even when Model is set to a 48K machine. A tape is treated as 128K-only when it says so itself (a 'stop the tape if in 48K mode' block, or hardware information ruling out a 48K) or when its filename tags it as the 128K release. Leave this disabled to have Model always honoured exactly as set; the core still says so on screen when content looks like it needs a 128K."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Emulate an Issue 2 Spectrum, which returns a different value for the unused bits of the keyboard port. A handful of 48K titles (Rasputin and others) only respond to the keyboard on an Issue 2 machine. No effect on 128K and later models."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Emulate the Fuller Box AY-3-8912 audio interface (ports 0x3f/0x5f) and its joystick port. Leave disabled for plain 48K titles: some of them poke those ports and will play AY music that no unexpanded Spectrum could produce. Selecting the Fuller joystick on a controller port enables the box regardless of this setting. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Emulate the Currah uSpeech allophone speech synthesiser. Requires two ROM images the core cannot distribute, 'uspeech.rom' and 'sp0256-al2.bin', placed in the frontend's system directory; without them the option has no effect. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Emulate the Melodik AY-3-8912 audio interface, which decodes the 128K AY ports (0xfffd/0xbffd) on a 48K machine. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Relative volume of the AY-3-8912 chip, so AY music can be turned down without losing beeper effects (or the other way round)."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Relative volume of the ULA beeper."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Advanced"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Instellingen"

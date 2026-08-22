@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.fuse\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2024-12-27 21:57+0000\n"
+"PO-Revision-Date: 2026-08-22 08:43+0000\n"
 "Last-Translator: Alfonso Cachero <alfonso.cachero@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fuse/es_es/>\n"
 "Language: es_es\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 msgctxt "Addon Summary"
 msgid "Sinclair - ZX Spectrum (Fuse)"
@@ -135,42 +135,94 @@ msgstr "Usar Tamaño Automático para los Guardados. Para Juego en red se recomi
 
 msgctxt "#30029"
 msgid "TurboSound (2x AY-8910)"
-msgstr ""
+msgstr "TurboSound (2x AY-8910)"
 
 msgctxt "#30030"
 msgid "Issue 2 Keyboard"
-msgstr ""
+msgstr "Problema 2 Teclado"
 
 msgctxt "#30031"
 msgid "Fuller Box"
-msgstr ""
+msgstr "Caja Fuller"
 
 msgctxt "#30032"
 msgid "Melodik"
-msgstr ""
+msgstr "Melodik"
 
 msgctxt "#30033"
 msgid "Currah uSpeech"
-msgstr ""
+msgstr "Currah uSpeech"
 
 msgctxt "#30034"
 msgid "AY Volume"
-msgstr ""
+msgstr "Volumen AY"
 
 msgctxt "#30035"
 msgid "Beeper Volume"
-msgstr ""
+msgstr "Volumen Beeper"
 
 msgctxt "#30036"
 msgid "Display joystick type at startup"
-msgstr ""
+msgstr "Mostrar tipo de joystick al empezar"
 
 msgctxt "#30037"
 msgid "Display emulation speed at startup"
-msgstr ""
+msgstr "Mostrar velocidad de emulación al empezar"
 
 msgctxt "#30038"
 msgid "Kempston Mouse Swap Buttons"
+msgstr "Cambiar Botones Ratón Kempston"
+
+msgctxt "#30039"
+msgid "Auto-select Model for 128K content (needs content load)"
+msgstr "Elegir Modelo automáticamente para contenido de 128K (necesita cargar contenido)"
+
+msgctxt "#30040"
+msgid "System"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Load 128K-only releases on a Spectrum 128K even when Model is set to a 48K machine. A tape is treated as 128K-only when it says so itself (a 'stop the tape if in 48K mode' block, or hardware information ruling out a 48K) or when its filename tags it as the 128K release. Leave this disabled to have Model always honoured exactly as set; the core still says so on screen when content looks like it needs a 128K."
+msgstr ""
+
+msgctxt "#30042"
+msgid "Emulate an Issue 2 Spectrum, which returns a different value for the unused bits of the keyboard port. A handful of 48K titles (Rasputin and others) only respond to the keyboard on an Issue 2 machine. No effect on 128K and later models."
+msgstr ""
+
+msgctxt "#30043"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Emulate the Fuller Box AY-3-8912 audio interface (ports 0x3f/0x5f) and its joystick port. Leave disabled for plain 48K titles: some of them poke those ports and will play AY music that no unexpanded Spectrum could produce. Selecting the Fuller joystick on a controller port enables the box regardless of this setting. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30046"
+msgid "Emulate the Currah uSpeech allophone speech synthesiser. Requires two ROM images the core cannot distribute, 'uspeech.rom' and 'sp0256-al2.bin', placed in the frontend's system directory; without them the option has no effect. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30047"
+msgid "Emulate the Melodik AY-3-8912 audio interface, which decodes the 128K AY ports (0xfffd/0xbffd) on a 48K machine. Changing this resets the machine."
+msgstr ""
+
+msgctxt "#30048"
+msgid "Relative volume of the AY-3-8912 chip, so AY music can be turned down without losing beeper effects (or the other way round)."
+msgstr ""
+
+msgctxt "#30049"
+msgid "Relative volume of the ULA beeper."
+msgstr ""
+
+msgctxt "#30050"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Advanced"
 msgstr ""
 
 #~ msgctxt "#30027"

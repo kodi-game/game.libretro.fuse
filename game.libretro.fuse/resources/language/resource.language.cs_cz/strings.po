@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.fuse\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2017-02-04 09:56i\n"
-"PO-Revision-Date: 2026-07-06 08:11+0000\n"
+"PO-Revision-Date: 2026-08-22 19:58+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-fuse/cs_cz/>\n"
 "Language: cs_cz\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2026.7\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 msgctxt "Addon Summary"
 msgid "Sinclair - ZX Spectrum (Fuse)"
@@ -135,43 +135,95 @@ msgstr "Používat automatickou velikost pro uložené stavy. Pro Netplay se dop
 
 msgctxt "#30029"
 msgid "TurboSound (2x AY-8910)"
-msgstr ""
+msgstr "TurboSound (2× AY-8910)"
 
 msgctxt "#30030"
 msgid "Issue 2 Keyboard"
-msgstr ""
+msgstr "Klávesnice Issue 2"
 
 msgctxt "#30031"
 msgid "Fuller Box"
-msgstr ""
+msgstr "Fuller Box"
 
 msgctxt "#30032"
 msgid "Melodik"
-msgstr ""
+msgstr "Melodik"
 
 msgctxt "#30033"
 msgid "Currah uSpeech"
-msgstr ""
+msgstr "Currah uSpeech"
 
 msgctxt "#30034"
 msgid "AY Volume"
-msgstr ""
+msgstr "Hlasitost AY"
 
 msgctxt "#30035"
 msgid "Beeper Volume"
-msgstr ""
+msgstr "Hlasitost pípáku"
 
 msgctxt "#30036"
 msgid "Display joystick type at startup"
-msgstr ""
+msgstr "Zobrazit typ joysticku při spuštění"
 
 msgctxt "#30037"
 msgid "Display emulation speed at startup"
-msgstr ""
+msgstr "Zobrazit rychlost emulace při spuštění"
 
 msgctxt "#30038"
 msgid "Kempston Mouse Swap Buttons"
-msgstr ""
+msgstr "Prohodit tlačítka myši Kempston"
+
+msgctxt "#30039"
+msgid "Auto-select Model for 128K content (needs content load)"
+msgstr "Automaticky vybrat model pro obsah 128K (vyžaduje načtení obsahu)"
+
+msgctxt "#30040"
+msgid "System"
+msgstr "Systém"
+
+msgctxt "#30041"
+msgid "Load 128K-only releases on a Spectrum 128K even when Model is set to a 48K machine. A tape is treated as 128K-only when it says so itself (a 'stop the tape if in 48K mode' block, or hardware information ruling out a 48K) or when its filename tags it as the 128K release. Leave this disabled to have Model always honoured exactly as set; the core still says so on screen when content looks like it needs a 128K."
+msgstr "Načítá vydání určená pouze pro 128K modely na Spectru 128K, i když je volba Model nastavena na 48K počítač. Kazeta se považuje za určenou pouze pro 128K modely, pokud to sama uvádí (blok „zastavit kazetu v režimu 48K“ nebo informace o hardwaru vylučující 48K model) nebo pokud ji jako 128K vydání označuje název souboru. Ponechte tuto volbu vypnutou, pokud se má nastavení Model vždy přesně dodržet; jádro přesto na obrazovce upozorní, když obsah zřejmě vyžaduje 128K model."
+
+msgctxt "#30042"
+msgid "Emulate an Issue 2 Spectrum, which returns a different value for the unused bits of the keyboard port. A handful of 48K titles (Rasputin and others) only respond to the keyboard on an Issue 2 machine. No effect on 128K and later models."
+msgstr "Emuluje Spectrum Issue 2, které pro nepoužité bity portu klávesnice vrací jinou hodnotu. Několik titulů pro 48K modely (Rasputin a další) reaguje na klávesnici pouze na počítači Issue 2. Na 128K a novější modely nemá vliv."
+
+msgctxt "#30043"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#30044"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "#30045"
+msgid "Emulate the Fuller Box AY-3-8912 audio interface (ports 0x3f/0x5f) and its joystick port. Leave disabled for plain 48K titles: some of them poke those ports and will play AY music that no unexpanded Spectrum could produce. Selecting the Fuller joystick on a controller port enables the box regardless of this setting. Changing this resets the machine."
+msgstr "Emuluje zvukové rozhraní Fuller Box AY-3-8912 (porty 0x3f/0x5f) a jeho port joysticku. U běžných titulů pro 48K modely ponechte volbu vypnutou: některé z nich do těchto portů zapisují a začnou přehrávat hudbu AY, kterou by nerozšířené Spectrum nedokázalo vytvářet. Výběrem joysticku Fuller na portu ovladače se zařízení zapne bez ohledu na toto nastavení. Změna této volby resetuje počítač."
+
+msgctxt "#30046"
+msgid "Emulate the Currah uSpeech allophone speech synthesiser. Requires two ROM images the core cannot distribute, 'uspeech.rom' and 'sp0256-al2.bin', placed in the frontend's system directory; without them the option has no effect. Changing this resets the machine."
+msgstr "Emuluje řečový syntezátor Currah uSpeech založený na alofonech. Vyžaduje dva obrazy ROM, které jádro nemůže distribuovat, „uspeech.rom“ a „sp0256-al2.bin“, umístěné v systémovém adresáři frontendu; bez nich nemá volba žádný účinek. Změna této volby resetuje počítač."
+
+msgctxt "#30047"
+msgid "Emulate the Melodik AY-3-8912 audio interface, which decodes the 128K AY ports (0xfffd/0xbffd) on a 48K machine. Changing this resets the machine."
+msgstr "Emuluje zvukové rozhraní Melodik AY-3-8912, které na 48K počítači dekóduje porty AY modelu 128K (0xfffd/0xbffd). Změna této volby resetuje počítač."
+
+msgctxt "#30048"
+msgid "Relative volume of the AY-3-8912 chip, so AY music can be turned down without losing beeper effects (or the other way round)."
+msgstr "Relativní hlasitost čipu AY-3-8912, aby bylo možné ztlumit hudbu AY bez zeslabení efektů pípáku (nebo naopak)."
+
+msgctxt "#30049"
+msgid "Relative volume of the ULA beeper."
+msgstr "Relativní hlasitost pípáku ULA."
+
+msgctxt "#30050"
+msgid "Input"
+msgstr "Vstup"
+
+msgctxt "#30051"
+msgid "Advanced"
+msgstr "Pokročilé"
 
 #~ msgctxt "#30027"
 #~ msgid "Display joystick type and emulation speed at startup"

@@ -225,6 +225,30 @@ msgctxt "#30051"
 msgid "Advanced"
 msgstr ""
 
+msgctxt "#30052"
+msgid "full"
+msgstr ""
+
+msgctxt "#30053"
+msgid "medium"
+msgstr ""
+
+msgctxt "#30054"
+msgid "small"
+msgstr ""
+
+msgctxt "#30055"
+msgid "minimum"
+msgstr ""
+
+msgctxt "#30056"
+msgid "acb"
+msgstr ""
+
+msgctxt "#30057"
+msgid "abc"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "설정"
